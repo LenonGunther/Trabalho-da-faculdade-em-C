@@ -27,7 +27,6 @@ int main(void) {
       if (op == 1) {//Saldo
         printf("\nO seu saldo é R$%.2f reais. \n", saldo[cliente]);
       } 
-        
       else if (op == 2) {//Saque
         printf("\nDigite o quanto quer sacar:");
         scanf("%f", &saque);
